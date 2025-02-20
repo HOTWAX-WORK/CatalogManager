@@ -14,14 +14,7 @@
 
 ## Created Product Category
 
-xml
-<?xml version="1.0" encoding="UTF-8"?>
-<entity-engine-xml>
-    <ProductCategory productCategoryId="PROMOTION" productCategoryTypeId="CATALOG_CATEGORY" categoryName="PROMOTION" />
-    <ProductCategory productCategoryId="BROWSE_ROOT" productCategoryTypeId="CATALOG_CATEGORY" categoryName="BROWSE_ROOT" />
-    <ProductCategory productCategoryId="CHILDREN" productCategoryTypeId="CATALOG_CATEGORY" primaryParentCategoryId="BROWSE_ROOT" categoryName="CHILDREN" />
-</entity-engine-xml>
-
+![image](https://github.com/user-attachments/assets/0b5f60e1-7942-41a8-b92d-fcbfb57edbda)
 
 ---
 
@@ -38,69 +31,20 @@ xml
 ---
 
 ## Added Products with Corresponding Categories
-
-xml
-<?xml version="1.0" encoding="UTF-8"?>
-<entity-engine-xml>
-    <Product productId="C2" productTypeId="DIGITAL_GOOD" primaryProductCategoryId="CHILDREN" isVirtual="Y" />
-    <Product productId="C1" productTypeId="DIGITAL_GOOD" primaryProductCategoryId="CHILDREN" isVirtual="Y" />
-    <Product productId="C1_WHITE_2" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_WHITE_3" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_WHITE_4" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_WHITE_5" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_BROWN_2" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_BROWN_3" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_BROWN_4" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C1_BROWN_5" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_RED_2" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_RED_3" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_RED_5" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_BLACK_2" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_BLACK_3" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-    <Product productId="C2_BLACK_5" productTypeId="FINISHED_GOOD" primaryProductCategoryId="CHILDREN" isVariant="Y" />
-</entity-engine-xml>
-
+![image](https://github.com/user-attachments/assets/bd078c1a-f1fe-4042-9e80-56a03bde068c)
 
 ---
 
 ## Created Product Associations
 
-xml
-<?xml version="1.0" encoding="UTF-8"?>
-<entity-engine-xml>
-    <ProductAssoc productId="C1" productIdTo="C1_WHITE_2" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_WHITE_3" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_WHITE_4" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_WHITE_5" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_BROWN_2" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_BROWN_3" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_BROWN_4" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C1" productIdTo="C1_BROWN_5" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_RED_2" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_RED_3" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_RED_5" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_BLACK_2" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_BLACK_3" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-    <ProductAssoc productId="C2" productIdTo="C2_BLACK_5" productAssocTypeId="PRODUCT_VARIANT" fromDate="2025-02-02 00:00:00.0" />
-</entity-engine-xml>
+![image](https://github.com/user-attachments/assets/42183d8b-68d6-4484-bcf8-9ed6da54dadf)
 
 
 ---
 
 ## Added Product Features
 
-xml
-<?xml version="1.0" encoding="UTF-8"?>
-<entity-engine-xml>
-    <ProductFeature productFeatureId="SIZE_5" productFeatureTypeId="SIZE" productFeatureCategoryId="TEXT" description="5" />
-    <ProductFeature productFeatureId="SIZE_4" productFeatureTypeId="SIZE" productFeatureCategoryId="TEXT" description="4" />
-    <ProductFeature productFeatureId="SIZE_3" productFeatureTypeId="SIZE" productFeatureCategoryId="TEXT" description="3" />
-    <ProductFeature productFeatureId="SIZE_2" productFeatureTypeId="SIZE" productFeatureCategoryId="TEXT" description="2" />
-    <ProductFeature productFeatureId="BROWN" productFeatureTypeId="COLOR" productFeatureCategoryId="TEXT" description="BROWN" />
-    <ProductFeature productFeatureId="WHITE" productFeatureTypeId="COLOR" productFeatureCategoryId="TEXT" description="WHITE" />
-    <ProductFeature productFeatureId="BLACK" productFeatureTypeId="COLOR" productFeatureCategoryId="TEXT" description="BLACK" />
-    <ProductFeature productFeatureId="RED" productFeatureTypeId="COLOR" productFeatureCategoryId="TEXT" description="RED" />
-</entity-engine-xml>
+![image](https://github.com/user-attachments/assets/9afc8179-ca85-4a77-a522-6258154e3a06)
 
 
 ---
